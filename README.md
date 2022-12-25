@@ -13,3 +13,9 @@ PDF: [Connect-Dart-and-HTML.pdf](Connect-Dart-and-HTML.pdf)
 
 1. 要安装Chrome浏览器，并且在主机操作系统下运行，即不是：Docker、WSL、Gitpod等。
 2. 需要安装webdev [https://dart.dev/tools/webdev](https://dart.dev/tools/webdev)
+3. 
+- dart pub add build_runner build_web_compilers --dev
+- dart pub global activate webdev
+- export PATH="$PATH":"$HOME/.pub-cache/bin"
+- dart pub get
+- webdev serve
